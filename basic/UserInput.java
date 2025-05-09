@@ -18,5 +18,7 @@ public class UserInput{
         System.out.println("Hi " + name + "! It's awesome that you love " + activity + ". Hope you become a great " + job + "!");
 
         sc.close();
+
+        //Always follow nextInt(), nextDouble(), or next() with sc.nextLine() if you're using nextLine() after.
     }
 }
