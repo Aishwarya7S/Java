@@ -37,6 +37,10 @@ public class Strings {
         System.out.println(a == b);         //t  
         System.out.println(a == c);         // f    
         System.out.println(a.equals(c));    //t
+
+        String formattedText = String.format("Name: %s, Age: %d", "Asha", 22);
+        System.out.println(formattedText);
+
    }
     
 }
