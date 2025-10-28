@@ -5,6 +5,7 @@
 // 1. By Extending the Thread Class
 // 2. By Implementing the Runnable Interface
 // Note -> Extend Thread when you don’t need to extend any other class. Implement Runnable when your class already extends another class.
+
 // Thread Life Cycle
 // New: Thread object is created but not started.
 // Runnable: Thread is ready to run and waiting for CPU allocation.
